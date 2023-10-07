@@ -13,7 +13,7 @@ Tablabarak(){
     for (let index = 0; index < this.LISTA.length; index++) {
         const ad = this.LISTA[index];
         let tr = $("<tr>");
-        tr.append($("<tr>").text(ad.szo));
+        tr.append($("<td>").text(ad.szo));
         sor+= tr.prop('outerHTML');
     }
     return sor;
