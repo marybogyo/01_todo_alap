@@ -1,5 +1,5 @@
 class TodoView{
-constructor(LISTA, Sz.Elem){
+constructor(LISTA, SzElem){
 this.LISTA = LISTA;
 this.SzElem = SzElem;
 let sor = this.Tablabarak();
