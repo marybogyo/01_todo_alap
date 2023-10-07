@@ -1,5 +1,5 @@
 export const LISTA = [
-    {szo:"egy"}, 
+    {szo:"eszakdolgozat specifikáció elkészítése"}, 
     {szo:"kettő"},
     {szo:"három"}
 ];

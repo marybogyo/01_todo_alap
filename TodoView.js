@@ -1,6 +1,6 @@
 class TodoView{
-constructor(LISTA, SzElem){
-this.LISTA = LISTA;
+constructor(TODOLIST, SzElem){
+this.TODOLIST = TODOLIST;
 this.SzElem = SzElem;
 let sor = this.Tablabarak();
 this.SzElem.find("tbody").html(sor);
@@ -10,10 +10,10 @@ this.SzElem.find("tbody").html(sor);
 
 Tablabarak(){
     let sor = "";
-    for (let index = 0; index < this.LISTA.length; index++) {
-        const ad = this.LISTA[index];
+    for (let index = 0; index < this.TODOLIST.length; index++) {
+        const ad = this.TODOLIST[index];
         let tr = $("<tr>");
-        tr.append($("<td>").text(ad.szo));
+        tr.append($("<td>").text(ad));
         sor+= tr.prop('outerHTML');
     }
     return sor;

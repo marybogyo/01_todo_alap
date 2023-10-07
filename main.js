@@ -1,7 +1,7 @@
-import { LISTA } from "./adat.js";
+import { TODOLIST } from "./adatok.js";
 import TodoView from "./TodoView.js";
 
 $(function(){
     const SzElem = $(".tabla");
-    new TodoView(LISTA, SzElem);
+    new TodoView(TODOLIST, SzElem);
 })
